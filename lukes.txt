@@ -1,0 +1,3 @@
+UPDATE `directory_country_region_district` a
+SET a.`region_id`= a.`region_id`-1
+WHERE a.`region_id` > 503
